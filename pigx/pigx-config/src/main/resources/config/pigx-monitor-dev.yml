@@ -1,0 +1,14 @@
+spring:
+  # 安全配置
+  security:
+    user:
+      name: ENC(rZHA4LW5hHmhLAAzJoFNag==)     # pigx
+      password: ENC(bjeyh+Aeii3kHXkoo00ZUw==) # pigx
+  boot:
+    admin:
+      ui:
+        # 加载前端
+        resource-locations: 'classpath:/ui/,classpath:/static/'
+        template-location: 'classpath:/ui/'
+        title: 'pigx 服务状态监控'
+        brand: 'pigx 服务状态监控'
